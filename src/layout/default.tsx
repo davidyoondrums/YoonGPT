@@ -22,7 +22,7 @@ const DefaultLayout = (props: LayoutProps) => {
       )}
     >
       <Head>
-        <title>AgentGPT</title>
+        <title>YoonGPT</title>
         <meta name="description" content={description} />
         <meta name="twitter:site" content="@AgentGPT" />
         <meta name="twitter:card" content="summary_large_image" />
