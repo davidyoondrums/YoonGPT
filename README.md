@@ -12,13 +12,11 @@
 </p>
 
 <p align="center">
-<a href="https://agentgpt.reworkd.ai">🔗 Short link</a>
+<a href="https://yoon.ai">🔗 Short link</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="#-getting-started">🤝 Contribute</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://twitter.com/asimdotshrestha/status/1644883727707959296">🐦 Twitter</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://discord.gg/gcmNyAAFfV">📢 Discord</a>
+<a href="https://twitter.com/davidy00n">🐦 Twitter</a>
 </p>
 
 ---

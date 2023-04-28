@@ -13,13 +13,13 @@ export default function HelpDialog({
   const [t] = useTranslation();
   return (
     <Dialog
-      header={`${t("Welcome to AgentGPT 🤖")} `}
+      header={`${t("Welcome to YoonGPT 🤖")} `}
       isShown={show}
       close={close}
     >
       <div className="text-md relative flex-auto p-2 leading-relaxed">
         <p>
-          <strong>AgentGPT</strong>{" "}
+          <strong>YoonGPT</strong>{" "}
           {t(
             "allows you to configure and deploy Autonomous AI agents. Name your custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results 🚀"
           )}
@@ -41,16 +41,8 @@ export default function HelpDialog({
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
-              window.open("https://discord.gg/jdSBAnmdnY", "_blank")
-            }
-          >
-            <FaDiscord size={30} />
-          </div>
-          <div
-            className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
-            onClick={() =>
               window.open(
-                "https://twitter.com/asimdotshrestha/status/1644883727707959296",
+                "https://twitter.com/davidy00n",
                 "_blank"
               )
             }
@@ -60,7 +52,7 @@ export default function HelpDialog({
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
-              window.open("https://github.com/reworkd/AgentGPT", "_blank")
+              window.open("https://github.com/davidyoondrums/YoonGPT", "_blank")
             }
           >
             <FaGithub size={30} />
