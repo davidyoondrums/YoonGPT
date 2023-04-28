@@ -30,7 +30,7 @@ const DefaultLayout = (props: LayoutProps) => {
         <meta name="twitter:description" content={description} />
         <meta
           name="twitter:image"
-          content="https://agentgpt.reworkd.ai/banner.png"
+          content="https://github.com/davidyoondrums/YoonGPT/blob/main/public/banner.png"
         />
         <meta name="twitter:image:width" content="1280" />
         <meta name="twitter:image:height" content="640" />
