@@ -3,13 +3,13 @@ import type { ModelSettings, SettingModel } from "../utils/types";
 import {
   DEFAULT_MAX_LOOPS_CUSTOM_API_KEY,
   DEFAULT_MAX_LOOPS_FREE,
-  GPT_35_TURBO,
+  GPT_4o,
 } from "../utils/constants";
 
 const SETTINGS_KEY = "AGENTGPT_SETTINGS";
 const DEFAULT_SETTINGS: ModelSettings = {
   customApiKey: "",
-  customModelName: GPT_35_TURBO,
+  customModelName: GPT_4o,
   customTemperature: 0.9 as const,
   customMaxLoops: DEFAULT_MAX_LOOPS_CUSTOM_API_KEY,
   maxTokens: 300 as const,

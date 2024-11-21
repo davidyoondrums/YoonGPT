@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import Dialog from "./Dialog";
 import Input from "./Input";
-import { GPT_MODEL_NAMES, GPT_4 } from "../utils/constants";
+import { GPT_MODEL_NAMES, GPT_4o } from "../utils/constants";
 import Accordion from "./Accordion";
 import type { ModelSettings, SettingModel } from "../utils/types";
 import LanguageCombobox from "./LanguageCombobox";
@@ -169,7 +169,7 @@ export const SettingsDialog: React.FC<{
       <p
         className={clsx(
           "my-2",
-          settings.customModelName === GPT_4 &&
+          settings.customModelName === GPT_4o &&
             "rounded-md border-[2px] border-white/10 bg-yellow-300 text-black"
         )}
       >

@@ -1,7 +1,7 @@
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import type { ModelSettings } from "./types";
-import { GPT_35_TURBO } from "./constants";
+import { GPT_4o } from "./constants";
 
 const getServerSideKey = (): string => {
   const keys: string[] = (process.env.OPENAI_API_KEY || "")
@@ -21,7 +21,7 @@ export const createModel = (settings: ModelSettings) => {
   return new OpenAI({
     openAIApiKey: _settings?.customApiKey || getServerSideKey(),
     temperature: _settings?.customTemperature || 0.9,
-    modelName: _settings?.customModelName || GPT_35_TURBO,
+    modelName: _settings?.customModelName || GPT_4o,
     maxTokens: _settings?.maxTokens || 400,
   });
 };
